@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background: #111827;
+    background: #576501;
     color: white;
 }
 
@@ -51,7 +51,7 @@ body {
 
 
 .hero {
-    height: 90vh;
+    height: 50vh;
     background: linear-gradient(to right, #00bcd4, #0077ff);
     display: flex;
     justify-content: center;
@@ -72,8 +72,8 @@ body {
     margin-top: 15px;
     padding: 10px 25px;
     border: none;
-    background: white;
-    color: #0077ff;
+    background: rgb(68, 48, 200);
+    color: #f7f9fb;
     font-weight: bold;
     cursor: pointer;
     border-radius: 25px;
@@ -96,7 +96,7 @@ body {
     background: #eaf2f8;
 }
 
-/* ================= SKILLS ================= */
+
 
 .skills-container {
     display: flex;
@@ -105,12 +105,13 @@ body {
 }
 
 .skill-card {
-    background: white;
+    background: rgb(23, 21, 21);
     padding: 15px 30px;
     margin: 10px;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
+    color: white;
 }
 
 .skill-card:hover {
@@ -135,6 +136,26 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
+}
+
+.sewaSathi {
+    background-color: #ff5e00;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin: 10px auto 0 auto;
+    max-width: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+}
+
+.sewaSathi:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 .project-card:hover {
