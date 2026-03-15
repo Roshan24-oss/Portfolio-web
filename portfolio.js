@@ -4,6 +4,14 @@ function scrollToSection(id) {
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
-    document.getElementById("successMessage").innerText = 
-    "Thank you! Your message has been sent successfully.";
+
+    
+    document.getElementById("popup").style.display = "flex";
+
+    
+    document.getElementById("contactForm").reset();
 });
+
+function closePopup(){
+    document.getElementById("popup").style.display = "none";
+}

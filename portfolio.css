@@ -223,6 +223,60 @@ form button:hover {
     font-weight: 500;
 }
 
+.popup{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+justify-content:center;
+align-items:center;
+z-index:2000;
+}
+
+.popup-content{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:300px;
+animation:popupShow 0.3s ease;
+}
+
+.popup-content h3{
+margin-bottom:10px;
+}
+
+.popup-content button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+background:#0077ff;
+color:white;
+border-radius:20px;
+cursor:pointer;
+}
+
+.popup-content button:hover{
+background:#111827;
+}
+
+@keyframes popupShow{
+
+from{
+transform:scale(0.7);
+opacity:0;
+}
+
+to{
+transform:scale(1);
+opacity:1;
+}
+
+}
+
 
 footer {
     background: #111827;
